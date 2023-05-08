@@ -1,0 +1,32 @@
+.bkc-product-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.bkc-product-card-image{
+    flex:1;
+    max-width: 288px;
+    max-height: 360px;
+    overflow: hidden;
+}
+
+.bkc-product-card-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.bkc-product-card-title{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bkc-product-card-title .product-card-price{
+    color: #ff4d4d;
+    font-weight: bold;
+}
